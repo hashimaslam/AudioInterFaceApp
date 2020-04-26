@@ -21,3 +21,7 @@ Features
 * `Generate full length stiched audio`
 
 * `download generated audio and transcripts with all data`
+
+
+
+![screenshot](/screenshot.gif)
