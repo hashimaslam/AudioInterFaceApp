@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; // 1
+}
+html {
+  font-size: 62.5%;
+  body {
+    margin: 0;
+
+    font-size: 1.6rem;
+    font-family: "Sriracha", cursive;
+    font-family: "Muli", sans-serif;
+    background-color: #3e4759;
+  }
+}
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+//media Queries
+
+@media only screen and (max-wdith: 600px) {
+  html {
+    font-size: 40%;
+  }
+}

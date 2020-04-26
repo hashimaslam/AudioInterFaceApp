@@ -1,0 +1,43 @@
+.convo-container {
+  display: flex;
+  align-items: center;
+  padding-top: 2%;
+
+  padding-left: 10em;
+  padding-right: 10em;
+  margin-bottom: 1em;
+}
+.primary-heading {
+  color: #eb7fb6;
+  text-align: center;
+}
+
+.generate-audio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  button {
+    background: $color-secondary1;
+    background-color: $color-primary3;
+    color: $color-white;
+    font-size: 1.5rem;
+    padding: 1em;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .convo-container {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    padding-top: 0;
+
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 1em;
+  }
+}
